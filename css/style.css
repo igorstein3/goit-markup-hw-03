@@ -1,9 +1,18 @@
 /* GENERAL SETTINS*/
 
+.container {
+    max-width:1440px;
+        padding-left: padding-right: margin-left: margin-right:
+}
+
 body {font-family: "Roboto", sans-serif;
         color: #434455;
     background-color: #FFFFFF;}
-h1, h2, h3, h4 {color: #2E2F42;}
+h1, h2, h3, h4 {color: #2E2F42;
+margin-top: 0;
+    margin-bottom: 0;}
+p {margin-top: 0;
+margin-bottom: 0;}
 
 /* DEFAULTING LINKS AND LISTS */
 
@@ -14,7 +23,11 @@ h1, h2, h3, h4 {color: #2E2F42;}
 ul,
 ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
+img {display: block;}
 
 /* NAVIGATION */
 
@@ -135,3 +148,5 @@ letter-spacing: 0.02em;}
         /* 150% */
         letter-spacing: 0.02em;}   
     .accent-footer {color: #f4f4fd;}
+    .container {padding-top: 120px;
+        padding-bottom: 120px;}
