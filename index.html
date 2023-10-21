@@ -22,10 +22,11 @@
 
   <body>
     
-    
+   <div class="page-container">
     <header class="page-header">
 
       <div class="container">
+      <div class="main-nav-contact-container">
       <nav class="main-nav">
         <a href="./index.html" class="logo"
           >Web<span class="accent">Studio</span></a
@@ -47,7 +48,7 @@
         </ul>
       </nav>
       <address class="contact">
-        <ul>
+        <ul class="contact-list">
           <li>
             <a href="mailto:info@devstudio.com" class="contact-link"
               >info@devstudio.com</a
@@ -61,6 +62,7 @@
         </ul>
       </address>
       </div>
+      </div>
       
     </header>
     
@@ -72,41 +74,43 @@
 
         <div class="container">
         <h1 class="main-page-title">Effective Solutions for Your Business</h1>
+        <div class="button-container">
         <button type="button" class="button-box">Order Service</button>
+        </div>
       </div>
       
       </section>
       
       
       
-      <section>
+      <section class="section">
 
         <div class="container">
-        <h2>Features</h2>
-        <ul class="main-features">
-          <li>
-            <h3 class="main-features-title">Strategy</h3>
+        <h2 class="visually-hidden">Features</h2>
+        <ul class="main-features">        
+          <li class="main-features-item">
+            <h3 class="main-features-title third-title">Strategy</h3>
             <p class="feature-description">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3 class="main-features-title">Punctuality</h3>
+          <li class="main-features-item">
+            <h3 class="main-features-title third-title">Punctuality</h3>
             <p class="feature-description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3 class="main-features-title">Diligence</h3>
+          <li class="main-features-item">
+            <h3 class="main-features-title third-title">Diligence</h3>
             <p class="feature-description">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3 class="main-features-title">Technologies</h3>
+          <li class="main-features-item">
+            <h3 class="main-features-title third-title">Technologies</h3>
             <p class="feature-description">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -119,7 +123,7 @@
     
    
     
-      <section class="team">
+      <section class="team section">
 
         <div class="container">
         <h2 class="secondary-title">Our Team</h2>
@@ -131,7 +135,7 @@
               width="264"
               height="260"
             />
-            <h3 class="description-list-title">Mark Guerrero</h3>
+            <h3 class="description-list-title third-title">Mark Guerrero</h3>
             <p class="feature-description">Product Designer</p>
           </li>
           <li class="description-list-item">
@@ -141,7 +145,7 @@
               width="264"
               height="260"
             />
-            <h3 class="description-list-title">Tom Ford</h3>
+            <h3 class="description-list-title third-title">Tom Ford</h3>
             <p class="feature-description">Frontend Developer</p>
           </li>
           <li class="description-list-item">
@@ -151,7 +155,7 @@
               width="264"
               height="260"
             />
-            <h3 class="description-list-title">Camila Garcia</h3>
+            <h3 class="description-list-title third-title">Camila Garcia</h3>
             <p class="feature-description">Marketing</p>
           </li>
           <li class="description-list-item">
@@ -161,7 +165,7 @@
               width="264"
               height="260"
             />
-            <h3 class="description-list-title">Daniel Wilson</h3>
+            <h3 class="description-list-title third-title">Daniel Wilson</h3>
             <p class="feature-description">UI Designer</p>
           </li>
         </ul>
@@ -171,64 +175,76 @@
     
 
     
-      <section>
+      <section class="section">
 
-        <div class="container"></div>
+        <div class="container">
         <h2 id="portfolio" class="secondary-title">Our Portfolio</h2>
-        <ul>
+        <ul class="portfolio-list">
           <li class="box">
             <img
               src="./images/banking-app.jpg"
               alt="Illustration of Banking App"
               width="360"
             />
-            <h3 class="description-list-title">Banking App</h3>
-            <p class="feature-description">App</p>
+            <div class="our-portfolio-text">
+              <h3 class="description-list-title third-title">Banking App</h3>
+              <p class="feature-description">App</p>
+            </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/cashless-payment.jpg"
               alt="Person paing cashless by the phone"
               width="360"
             />
-            <h3 class="description-list-title">Cashless Payment</h3>
-            <p class="feature-description">Marketing</p>
+            <div class="our-portfolio-text">              
+              <h3 class="description-list-title third-title">Cashless Payment</h3>
+              <p class="feature-description">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/meditation-app.jpg"
               alt="Notebook and smartphone with opened App for meditation "
               width="360"
             />
-            <h3 class="description-list-title">Meditation App</h3>
+              <div class="our-portfolio-text">
+            <h3 class="description-list-title third-title">Meditation App</h3>
             <p class="feature-description">App</p>
+              </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/taxi-service.jpg"
               alt="Driver in car navigate using taxi servise in the phone"
               width="360"
             />
-            <h3 class="description-list-title">Taxi Service</h3>
+              <div class="our-portfolio-text">
+            <h3 class="description-list-title third-title">Taxi Service</h3>
             <p class="feature-description">Marketing</p>
+              </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/screen-illustrations.jpg"
               alt="illustrations of the moon at the phone screen "
               width="360"
             />
-            <h3 class="description-list-title">Screen Illustrations</h3>
+              <div class="our-portfolio-text">
+            <h3 class="description-list-title third-title">Screen Illustrations</h3>
             <p class="feature-description">Design</p>
+              </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/online-courses.jpg"
               alt="cheerful girl in headphones looking at the phone"
               width="360"
             />
-            <h3 class="description-list-title">Online Courses</h3>
+              <div class="our-portfolio-text">
+            <h3 class="description-list-title third-title">Online Courses</h3>
             <p class="feature-description">Marketing</p>
+              </div>
           </li>
         </ul>
         </div>
@@ -252,4 +268,5 @@
     </footer>
     
   </body>
+ </div>
 </html>
