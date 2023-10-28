@@ -184,9 +184,10 @@ display: block;
         font-weight: 500;
         line-height: 1.2;
         /* 120% */
-        letter-spacing: 0.02em;}
-        .third-title {margin-bottom: 8px;
-        margin-top: 32px;}
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;}
+        /* .third-title {
+        margin-top: 32px;} */
 
         /* SECTION 3 */
 
@@ -204,20 +205,27 @@ display: block;
         margin-bottom: 72px;}
     .description-list {text-align: center;
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     flex-wrap: wrap;}
     .description-list-title {font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         /* 120% */
-    letter-spacing: 0.02em}
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;}
     .description-list-item {background-color: #FFFFFF;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         width: calc((100% - 72px) / 4);
+        /* padding-bottom: 32px; */
+        border-radius: 0px 0px 4px 4px;
+        }
+        .name-and-job-title {
+        padding-top: 32px;
         padding-bottom: 32px;
         }
+        .job-title {text-align: center;}
 
         /* SECTION 4 */
 
@@ -236,16 +244,16 @@ display: block;
             border-left: 1px solid var(--CORNFLOWER, #E7E9FC);
             border-right: 1px solid var(--CORNFLOWER, #E7E9FC);
             border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-            padding-left: 16px;
-            padding-right: 16px;
+            padding:32px 16px;            
         }
     
         /* FOOTER */
 
     .footer-decoration {background: var(--NAVY-BLUE, #2E2F42);
+        padding: 100px 0;
   }
-    .footer-decoration .container {padding-top: 100px;
-        padding-bottom: 100px;}
+    /* .footer-decoration .container {padding-top: 100px;
+        padding-bottom: 100px;} */
     .logo-footer {color:
             var(--IRIS, #4D5AE5);
         font-family: Raleway, sans-serif;
@@ -257,6 +265,7 @@ display: block;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 16px;
+        display: inline-block;
     }
     .footer-text {color: var(--CLOUD, #F4F4FD);
         /* Body */
